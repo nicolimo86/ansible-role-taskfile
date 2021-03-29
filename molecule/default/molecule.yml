@@ -1,0 +1,17 @@
+---
+dependency:
+  name: galaxy
+driver:
+  name: docker
+platforms:
+  - name: ubuntu1804-ansible-role-task
+    image: geerlingguy/docker-ubuntu1804-ansible
+    privileged: false
+    pre_build_image: true
+provisioner:
+  name: ansible
+verifier:
+  name: testinfra
+  directory: ../tests
+  options:
+    verbose: true
