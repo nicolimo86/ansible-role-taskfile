@@ -21,7 +21,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       vars:
-         - taskfile_version: 3.2.2
+         taskfile_version: 3.2.2
       roles:
          - { role: ansible-role-taskfile }
 
