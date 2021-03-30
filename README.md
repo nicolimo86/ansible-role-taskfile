@@ -3,6 +3,9 @@ Ansible role taskfile
 
 Install taskfile from https://taskfile.dev/#/
 
+Requirements
+--------------
+Ubuntu 18.04
 
 Role Variables
 --------------
